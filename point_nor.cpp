@@ -371,7 +371,7 @@ void Visualization(pcl::PointCloud<pcl::PointXYZ>::Ptr & inCloud,vector<vector<i
 			points.y = inCloud->points[regions[i][j]].y;
 			points.z = inCloud->points[regions[i][j]].z;
 			points.r = R;
-			points.g =G;
+			points.g = G;
 			points.b = B;
 			regions_cloud->push_back(points);
 	 	}
